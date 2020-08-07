@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">VIEW</string>
+
+    <!--  root  -->
+    <string name="static_view">STATIC VIEW</string>
+    <string name="static_view_property_animation">PROPERTY ANIMATION</string>
+    <string name="animate_view">ANIMATE VIEW</string>
+    <string name="touchable_view">TOUCHABLE VIEW</string>
+
+    <!-- common test -->
+    <string name="tian_wang_gai_di_hu">天王盖地虎</string>
+    <string name="love">热爱</string>
+    <string name="china_no_1">CHINA NO.1</string>
+    <!--    <string name="calorie_title">1453 calories\nburned</string>-->
+    <!--    <string name="calorie_title">1453 calories\r\nburned</string>-->
+    <!--    <string name="calorie_title">1453 calories&#13;&#10;burned</string>-->
+    <string name="calorie_title_calorie">1,453 calories</string>
+    <string name="calorie_title_burned">burned</string>
+    <string name="calorie_content">Your avg is 2399 calories</string>
+    <string name="king_of_kings">王中王</string>
+    <string name="motto_from_book">Always do to the others as you would be done by.</string>
+    <string name="motto_from_movie">He always fought, that is what I remember. He fought because he knew if he did not fight, it would make it that much easier not to fight the next time.</string>
+    <string name="kg">kg</string>
+    <string name="size">尺寸：</string>
+    <string name="multiply">\nx\n</string>
+    <string name="explanation_dispatch_draw">把绘制代码写在 super.dispatchDraw() 的上面，这段绘制就会在 onDraw() 之后、 super.dispatchDraw() 之前发生，也就是绘制内容会出现在主体内容和子 View 之间。而这个…… 其实和重写 onDraw() 并把绘制代码写在 super.onDraw() 之后的做法，效果是一样的。</string>
+    <string name="new_signal">new</string>
+    <string name="submit">Submit</string>
+    <string name="outer_frame">外框</string>
+    <string name="width">宽度</string>
+    <string name="height">高度</string>
+    <string name="kobe_bryant">KOBE BRYANT</string>
+
+    <!--  android version name  -->
+    <string name="android_04">KitKat</string>
+    <string name="android_05">Lollipop</string>
+    <string name="android_06">Marshmallow</string>
+    <string name="android_07">Nougat</string>
+    <string name="android_08">Oreo</string>
+    <string name="android_09">Pie</string>
+    <string name="android_10">Q</string>
+    <string name="android_11">R</string>
+    <string name="android_12">S</string>
+    <string name="android_13">T</string>
+
+    <!--  Living expenses name  -->
+    <string name="living_expenses_transfer_money">转账充值</string>
+    <string name="living_expenses_diet">餐饮美食</string>
+    <string name="living_expenses_book_education">图书教育</string>
+    <string name="living_expenses_daily_life">生活日用</string>
+    <string name="living_expenses_communication_logistics">通讯物流</string>
+    <string name="living_expenses_human_relations">人情往来</string>
+    <string name="living_expenses_others">其他</string>
+
+    <!--  Living expenses value  -->
+    <string name="living_expenses_transfer_money_value">¥ 1280</string>
+    <string name="living_expenses_diet_value">¥ 3000</string>
+    <string name="living_expenses_book_education_value">¥ 500</string>
+    <string name="living_expenses_daily_life_value">¥ 960</string>
+    <string name="living_expenses_communication_logistics_value">¥ 78</string>
+    <string name="living_expenses_human_relations_value">¥ 1996</string>
+    <string name="living_expenses_others_value">¥ 996</string>
+
+    <!--  EmbossMaskFilter Param  -->
+    <string name="param_x">X</string>
+    <string name="param_y">Y</string>
+    <string name="param_z">Z</string>
+    <string name="param_ambient">Ambient</string>
+    <string name="param_specular">Specular</string>
+    <string name="param_blur_radius">Blur Radius</string>
+</resources>

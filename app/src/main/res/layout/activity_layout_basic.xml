@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".staticview.view_08_layout_baisc.LayoutBasicActivity">
+
+    <!--  第零版  -->
+    <!--    <androidx.appcompat.widget.AppCompatImageView-->
+    <!--        android:layout_width="@dimen/avatar_size"-->
+    <!--        android:layout_height="@dimen/avatar_size"-->
+    <!--        android:src="@drawable/icon_avatar" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_08_layout_baisc.CustomSizeImageView-->
+    <!--        android:layout_width="@dimen/padding_two_hundred_fifty_six"-->
+    <!--        android:layout_height="@dimen/padding_two_hundred_fifty_six"-->
+    <!--        android:layout_marginTop="@dimen/padding_medium"-->
+    <!--        android:src="@drawable/icon_avatar" />-->
+
+    <!--  第一版  -->
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/parent_frame"-->
+    <!--        android:layout_width="@dimen/avatar_size"-->
+    <!--        android:layout_height="@dimen/avatar_size"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:background="@color/blue_400">-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_08_layout_baisc.CustomSizeImageView2-->
+    <!--            android:id="@+id/target"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:src="@drawable/icon_avatar" />-->
+    <!--    </FrameLayout>-->
+
+    <!--  第二版  -->
+    <com.smart.myapplication2020customview.staticview.view_08_layout_baisc.CustomSizeImageView2
+        android:id="@+id/target"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_avatar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_medium">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding_small"
+            android:text="@string/outer_frame" />
+
+        <LinearLayout
+            android:layout_width="@dimen/padding_zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/number_one"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:orientation="horizontal">
+
+                <SeekBar
+                    android:id="@+id/width_seek_bar"
+                    android:layout_width="@dimen/padding_zero"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/number_one" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/width" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <SeekBar
+                    android:id="@+id/height_seek_bar"
+                    android:layout_width="@dimen/padding_zero"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/number_one" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/height" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

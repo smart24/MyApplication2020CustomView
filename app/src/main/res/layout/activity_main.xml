@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/static_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/static_view" />
+
+    <Button
+        android:id="@+id/animate_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animate_view" />
+
+    <Button
+        android:id="@+id/touchable_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/touchable_view" />
+
+</LinearLayout>

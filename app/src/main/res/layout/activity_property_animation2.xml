@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".staticview.view_07_property_animation.PropertyAnimationActivity">
+
+    <com.smart.myapplication2020customview.staticview.view_07_property_animation.view_01_color_view.ColorView
+        android:id="@+id/color_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <com.smart.myapplication2020customview.staticview.view_07_property_animation.view_02_point_f_view.PointFView
+        android:id="@+id/point_f_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_avatar"
+        android:visibility="gone" />
+
+</LinearLayout>

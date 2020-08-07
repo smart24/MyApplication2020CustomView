@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  root  -->
+    <string-array name="main_root">
+        <item>@string/static_view</item>
+        <item>@string/animate_view</item>
+        <item>@string/touchable_view</item>
+    </string-array>
+
+    <string-array name="android_version_names">
+        <item>@string/android_04</item>
+        <item>@string/android_05</item>
+        <item>@string/android_06</item>
+        <item>@string/android_07</item>
+        <item>@string/android_08</item>
+        <item>@string/android_09</item>
+<!--        <item>@string/android_10</item>-->
+<!--        <item>@string/android_11</item>-->
+<!--        <item>@string/android_12</item>-->
+<!--        <item>@string/android_13</item>-->
+    </string-array>
+
+    <integer-array name="android_version_values">
+        <item>@integer/four_hundred_eighty</item>
+        <item>@integer/number_one_hundred_twenty_eight</item>
+        <item>@integer/six_hundred_forty</item>
+        <item>@integer/number_three_hundred_and_sixty</item>
+        <item>@integer/two_hundred_fifty_five</item>
+        <item>@integer/seven_hundred_twenty</item>
+<!--        <item>@integer/number_ninety_six</item>-->
+<!--        <item>@integer/number_three_hundred_and_sixty</item>-->
+<!--        <item>@integer/five_hundred_sixty</item>-->
+<!--        <item>@integer/two_hundred_fifty_five</item>-->
+
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+<!--        <item>@integer/four_hundred</item>-->
+    </integer-array>
+
+    <integer-array name="android_version_colors">
+        <item>@color/deep_orange_300</item>
+        <item>@color/purple_300</item>
+        <item>@color/pink_300</item>
+        <item>@color/teal_300</item>
+        <item>@color/red_300</item>
+        <item>@color/blue_300</item>
+        <item>@color/green_300</item>
+        <item>@color/deep_orange_300</item>
+        <item>@color/cyan_300</item>
+        <item>@color/grey_300</item>
+    </integer-array>
+
+    <string-array name="living_expenses_names">
+        <item>@string/living_expenses_transfer_money</item>
+        <item>@string/living_expenses_diet</item>
+        <item>@string/living_expenses_book_education</item>
+        <item>@string/living_expenses_daily_life</item>
+        <item>@string/living_expenses_communication_logistics</item>
+        <item>@string/living_expenses_human_relations</item>
+        <item>@string/living_expenses_others</item>
+    </string-array>
+
+    <string-array name="living_expenses_values">
+        <item>@string/living_expenses_transfer_money_value</item>
+        <item>@string/living_expenses_diet_value</item>
+        <item>@string/living_expenses_book_education_value</item>
+        <item>@string/living_expenses_daily_life_value</item>
+        <item>@string/living_expenses_communication_logistics_value</item>
+        <item>@string/living_expenses_human_relations_value</item>
+        <item>@string/living_expenses_others_value</item>
+    </string-array>
+
+    <integer-array name="living_expenses_int_values">
+        <item>@integer/four_hundred_eighty</item>
+        <item>@integer/five_hundred_sixty</item>
+        <item>@integer/six_hundred_forty</item>
+        <item>@integer/number_three_hundred_and_sixty</item>
+        <item>@integer/number_one_hundred_twenty</item>
+        <item>@integer/number_three_hundred_and_sixty_nine</item>
+        <item>@integer/seven_hundred_twenty</item>
+
+
+<!--        <item>@integer/seven_hundred_twenty</item>-->
+<!--        <item>@integer/seven_hundred_twenty</item>-->
+<!--        <item>@integer/seven_hundred_twenty</item>-->
+<!--        <item>@integer/seven_hundred_twenty</item>-->
+<!--        <item>@integer/seven_hundred_twenty</item>-->
+<!--        <item>@integer/seven_hundred_twenty</item>-->
+<!--        <item>@integer/seven_hundred_twenty</item>-->
+
+
+<!--        <item>@integer/number_four</item>-->
+<!--        <item>@integer/number_sixteen</item>-->
+<!--        <item>@integer/number_sixty</item>-->
+<!--        <item>@integer/number_ninety</item>-->
+<!--        <item>@integer/number_one_hundred_twenty_eight</item>-->
+<!--        <item>@integer/number_one_hundred_ninety_six</item>-->
+<!--        <item>@integer/two_hundred_fifty_five</item>-->
+    </integer-array>
+
+    <string-array name="compass_paths">
+<!--        <item>M512,512m-367.1,0a367.1,367.1 0,1 0,734.2 0,367.1 367.1,0 1,0 -734.2,0Z</item>-->
+<!--        <item>M512,512m-309.8,0a309.8,309.8 0,1 0,619.6 0,309.8 309.8,0 1,0 -619.6,0Z</item>-->
+        <item>M503,237.4h18v41h-18zM196.8,462.5h41v18h-41zM503,745.7h18v41h-18zM745.7,503h41v18h-41z</item>
+<!--        <item>M559.5,559.5l-161.3,66.3 66.3,-161.3 161.3,-66.3z</item>-->
+        <item>M512,135.9c-207.4,0 -376.1,168.7 -376.1,376.1S304.6,888.1 512,888.1c207.4,0 376.1,-168.7 376.1,-376.1S719.4,135.9 512,135.9zM512,870.1c-197.4,0 -358.1,-160.6 -358.1,-358.1S314.6,153.9 512,153.9 870.1,314.6 870.1,512 709.4,870.1 512,870.1z</item>
+        <item>M512,193.2c-175.8,0 -318.8,143 -318.8,318.8s143,318.8 318.8,318.8 318.8,-143 318.8,-318.8 -143,-318.8 -318.8,-318.8zM512,812.8c-165.9,0 -300.8,-134.9 -300.8,-300.8S346.1,211.2 512,211.2 812.8,346.1 812.8,512 677.9,812.8 512,812.8z</item>
+        <item>M381.7,642.3l184.7,-75.9 75.9,-184.7 -184.7,75.9 -75.9,184.7zM609.3,414.7l-56.7,137.9 -137.9,56.7 56.7,-137.9 137.9,-56.7z</item>
+        <item>M483.57,496.27l12.73,-12.73 44.19,44.19 -12.73,12.73z</item>
+    </string-array>
+
+    <integer-array name="compass_paths_colors">
+        <item>@color/compass_color_1</item>
+        <item>@color/compass_color_2</item>
+        <item>@color/compass_color_3</item>
+        <item>@color/compass_color_4</item>
+        <item>@color/compass_color_5</item>
+        <item>@color/compass_color_6</item>
+        <item>@color/compass_color_7</item>
+        <item>@color/compass_color_8</item>
+    </integer-array>
+
+</resources>

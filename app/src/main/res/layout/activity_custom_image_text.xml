@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".staticview.view_09_layout_custom_for_view.CustomImageTextActivity">
+
+    <com.smart.myapplication2020customview.staticview.view_09_layout_custom_for_view.CustomImageTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+<!--    <com.smart.myapplication2020customview.staticview.view_09_layout_custom_for_view.CustomImageTextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="center" />-->
+
+<!--    <com.smart.myapplication2020customview.staticview.view_09_layout_custom_for_view.CustomImageTextView-->
+<!--        android:layout_width="@dimen/padding_one_hundred_ninety_six"-->
+<!--        android:layout_height="@dimen/padding_one_hundred_fifty_six"-->
+<!--        android:layout_gravity="center" />-->
+</FrameLayout>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="@integer/number_two"
+    tools:context=".staticview.StaticViewActivity">
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_01_color.ColorView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_02_circle.CircleView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_03_rect.RectView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_04_point.PointView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_05_oval.OvalView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_05_oval.PetalView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_05_oval.OlympicView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_06_line.LineView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_07_round_rect.RoundRectView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_08_arc.ArcView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_09_path.PathView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_09_path.PathFillTypeView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_10_bitmap.BitmapView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_10_bitmap.BitmapView2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_11_text.TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.HistogramView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.PieChartView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.PieChartView2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.PieChartView3-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.PieChartView4-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.PieChartView5-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.PieChartView6-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.AliPayBillView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.AliPayBillView2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.CalorieView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.CalorieView2-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_01_basic.view_12_unit_01_practice.RectView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_02_paint.view_01_set_color.PaintSetColorView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_02_paint.view_02_set_shader.PaintSetShaderView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_02_paint.view_03_set_bitmap_shader.PaintSetBitmapShaderView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_02_paint.view_03_set_bitmap_shader.PaintSetBitmapShaderView2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_04_compose_shader.PaintComposeShader-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_04_compose_shader.PaintComposeShader2-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_05_color_filter.PaintLightingColorFilterView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_05_color_filter.PaintPorterDuffColorFilterView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_05_color_filter.PaintColorMatrixColorFilterView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_06_xfermode.PaintXfermode-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_06_xfermode.PaintXfermode2-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_06_xfermode.PaintXfermode3-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_07_anti_alias.PaintAntiAliasView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_08_stroke_shape.PaintStrokeShapeView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" /> -->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_09_color_optimization.PaintDitherView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_09_color_optimization.PaintFilterBitmapView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_10_set_path_effect.PaintCornerPathEffectView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_10_set_path_effect.PaintDiscretePathEffectView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_10_set_path_effect.PaintDashPathEffectView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_10_set_path_effect.PaintPathDashPathEffectView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_10_set_path_effect.PaintSumPathEffectView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_10_set_path_effect.PaintComposePathEffectView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_11_set_shadow_layer.PaintSetShadowLayerView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_12_set_mask_filter.PaintBlurMaskFilterView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_12_set_mask_filter.PaintEmbossMaskFilterView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_13_get_path.PaintGetFillPathView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_13_get_path.PaintGetTextPathView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_13_get_path.PaintGetTextPathView2-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_14_draw_text.PaintSetLetterSpacingView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_14_draw_text.PaintSetTextEffectView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_02_paint.view_15_init.PaintInitView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--            <com.smart.myapplication2020customview.staticview.view_02_paint.view_16_unit_02_practice.PaintTextXfermodeView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_02_paint.view_16_unit_02_practice.PaintBitmapXfermodeView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_02_paint.view_16_unit_02_practice.PaintSvgXfermodeView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_02_paint.view_16_unit_02_practice.PaintPathXfermodeView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <androidx.appcompat.widget.AppCompatImageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:scaleX="0.713"-->
+    <!--        android:scaleY="0.713"-->
+    <!--        app:srcCompat="@drawable/ic_get_goal"-->
+    <!--        />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_01_canvas_draw_text.CanvasDrawTextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_02_canvas_draw_text_on_path.CanvasDrawTextOnPathView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_03_static_layout.StaticLayoutView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_04_paint_set_text_size.PaintSetTextSizeView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_05_paint_set_typeface.PaintSetTypefaceView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_06_paint_set_xxx.PaintSetXXXView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_07_paint_get_font_spacing.PaintGetFontSpacingView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_03_text.view_08_paint_get_font_metrics.PaintGetFontMetricsView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_09_paint_get_text_bounds.PaintGetTextBoundsView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_10_paint_measure_text.PaintMeasureTextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_11_paint_get_text_widths.PaintGetTextWidthsView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_12_paint_break_text.PaintBreakTextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_03_text.view_13_paint_has_glyph.PaintHasGlyphView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_01_canvas_clip_rect.CanvasClipRectView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_02_canvas_clip_path.CanvasClipPathView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_03_canvas_geometric_transformation_native.CanvasTranslateView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_03_canvas_geometric_transformation_native.CanvasRotateView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_03_canvas_geometric_transformation_native.CanvasScaleView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_03_canvas_geometric_transformation_native.CanvasSkewView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_04_canvas_geometric_transformation_matrix.CanvasMatrixView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_04_canvas_geometric_transformation_matrix.CanvasCustomMatrixView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_05_canvas_geometric_transformation_camera.CanvasCameraView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_06_unit_04_pratice.CanvasFlipboardTurnPageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_06_unit_04_pratice.CanvasFlipboardTurnPageView2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_06_unit_04_pratice.CanvasFlipboardTurnPageView3-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_06_unit_04_pratice.CanvasFlipboardProgressView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_06_unit_04_pratice.CanvasFlipboardProgressView2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_06_unit_04_pratice.CanvasFlipboardProgressView3-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_06_unit_04_pratice.CanvasMintRulerView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_04_canvas_assist.view_06_unit_04_pratice.CanvasMintRulerView2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_01_draw_after_super_on_draw.CanvasDrawAfterSuperOnDrawView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:srcCompat="@drawable/icon_avatar" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_02_draw_before_super_on_draw.CanvasDrawBeforeSuperOnDrawView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/china_no_1"-->
+    <!--        android:textSize="@dimen/font_twenty_eight" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="@dimen/padding_small"-->
+    <!--        android:text="@string/china_no_1"-->
+    <!--        android:textSize="@dimen/font_twenty_eight" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_03_draw_after_super_dispatch_draw.CanvasDrawAfterSuperDispatchDrawView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:gravity="center"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            app:srcCompat="@drawable/icon_avatar" />-->
+    <!--    </com.smart.myapplication2020customview.staticview.view_05_draw_order.view_03_draw_after_super_dispatch_draw.CanvasDrawAfterSuperDispatchDrawView>-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_04_draw_before_super_dispatch_draw.CanvasDrawBeforeSuperDispatchDrawView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:gravity="center"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            app:srcCompat="@drawable/icon_avatar" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="@dimen/padding_medium"-->
+    <!--            android:text="@string/explanation_dispatch_draw"-->
+    <!--            android:paddingHorizontal="@dimen/padding_medium"-->
+    <!--            android:textSize="@dimen/font_small" />-->
+    <!--    </com.smart.myapplication2020customview.staticview.view_05_draw_order.view_04_draw_before_super_dispatch_draw.CanvasDrawBeforeSuperDispatchDrawView>-->
+
+    <!--        <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_05_draw_after_super_on_draw_foreground.CanvasDrawAfterSuperOnDrawForegroundView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:foreground="@color/translucent"-->
+    <!--            app:srcCompat="@drawable/icon_avatar"-->
+    <!--            />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_06_draw_before_super_on_draw_foreground.CanvasDrawBeforeSuperOnDrawForegroundView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:foreground="@color/translucent"-->
+    <!--        app:srcCompat="@drawable/icon_avatar" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_07_draw_after_super_draw.CanvasDrawAfterSuperDrawView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:foreground="@color/translucent"-->
+    <!--        app:srcCompat="@drawable/icon_avatar" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_08_draw_before_super_draw.CanvasDrawBeforeSuperDrawView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/china_no_1"-->
+    <!--        android:textSize="@dimen/font_twenty_eight" />-->
+
+    <!--    <androidx.appcompat.widget.AppCompatEditText-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="@dimen/padding_medium"-->
+    <!--        android:text="@string/china_no_1"-->
+    <!--        android:textSize="@dimen/font_twenty_eight" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_09_unit_05_practice.CanvasRightView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_09_unit_05_practice.CanvasDynamicRoundRectView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_09_unit_05_practice.CanvasDynamicRoundRectView2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_09_unit_05_practice.CanvasDynamicRoundRectView3-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_09_unit_05_practice.CanvasDynamicRoundRectView4-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_09_unit_05_practice.CanvasDynamicRoundRectView5-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_09_unit_05_practice.CanvasDynamicRoundRectView6-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.smart.myapplication2020customview.staticview.view_05_draw_order.view_09_unit_05_practice.CanvasDynamicRoundRectView6-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:src="@drawable/icon_avatar" />
+
+    <com.smart.myapplication2020customview.staticview.view_08_layout_baisc.CustomSizeImageView
+        android:layout_width="@dimen/padding_two_hundred_fifty_six"
+        android:layout_height="@dimen/padding_two_hundred_fifty_six"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:src="@drawable/icon_avatar" />
+
+</LinearLayout>
